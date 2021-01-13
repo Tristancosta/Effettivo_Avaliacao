@@ -10,7 +10,7 @@ namespace Effettivo_Avaliacao
         public static string StringConexao { get; set; }
         static Conexao()
         {
-            Conexao.StringConexao = "Data Source=APOLO;Initial Catalog=Avaliacao;Persist Security Info=True;User ID=avaliacao;Password=white_02";
+            Conexao.StringConexao = "Server=tcp:bdsergio.database.windows.net,1433;Initial Catalog=Effettivo_Avaliacao;Persist Security Info=False;User ID=tristancosta_admin;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         }
     }
 }
